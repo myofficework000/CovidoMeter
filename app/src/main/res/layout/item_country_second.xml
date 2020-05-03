@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_weight="1.4"
+                android:minLines="1"
+                android:textColor="@color/black_night"
+                android:text="-"
+                android:textAlignment="textStart"
+                android:textSize="16sp"
+                app:autoSizeMaxTextSize="20sp"
+                app:autoSizeMinTextSize="10sp" />
+
+            <TextView
+                android:id="@+id/tvCases"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="0.5"
+                android:minLines="1"
+                android:textColor="@color/black_night"
+                android:text="-"
+                android:textAlignment="textEnd"
+                android:textSize="16sp"
+                app:autoSizeMaxTextSize="20sp"
+                app:autoSizeMinTextSize="10sp" />
+
+            <TextView
+                android:id="@+id/tvDeathCase"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="0.5"
+                android:minLines="1"
+                android:text="-"
+                android:textColor="@color/black_night"
+                android:textAlignment="textEnd"
+                android:textSize="16sp"
+                app:autoSizeMaxTextSize="20sp"
+                app:autoSizeMinTextSize="10sp" />
+
+            <TextView
+                android:id="@+id/tvRecoverCase"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="0.5"
+                android:textColor="@color/black_night"
+                android:minLines="1"
+                android:text="-"
+                android:textAlignment="textEnd"
+                android:textSize="16sp"
+                app:autoSizeMaxTextSize="20sp"
+                app:autoSizeMinTextSize="10sp" />
+        </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

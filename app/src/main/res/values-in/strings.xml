@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name_prod">COVID-19 Live Tracking</string>
+    <string name="app_name_staging">COVID-19 Live Tracking - Staging</string>
+    <string name="corona_virus_definition">Apa itu CoronaVirus(COVID-19)</string>
+    <string name="about">Tentang</string>
+    <string name="coronavirus_definition">https://hellosehat.com/kesehatan/penyakit/coronavirus-adalah/</string>
+    <string name="coronavirus_prevention">https://hellosehat.com/kesehatan/penyakit/coronavirus-adalah/#h-pencegahan</string>
+    <string name="coronavirusapplogo">coronaVirusAppLogo</string>
+    <string name="corona_live_tracking">CoronaVirus(COVID-19) Live Tracking</string>
+    <string name="last_update">Update terkini: </string>
+    <string name="title_activity_preference">Pengaturan</string>
+
+    <!-- Preference Titles -->
+    <string name="sync_header">Notifikasi</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Kasih tau saya ya kalo ada yang baru</string>
+    <string name="pref_key_check">pref_key_check</string>
+    <string name="about_message">Hello, got any ideas?, don\'t hesitate to contact me \\n\\ndhikyaldwiansyah@gmail.com\\n\\nData scraped from:\\n- infographics.channelnewsasia.com\\n- JHU CSSE</string>
+    <string name="refresh_timeout">Kecepetan mau kemana, sabar.</string>
+    <string name="network_problem">Internet anda bermasalah</string>
+    <string name="pref_key_datasource" translatable="false">pref_key_datasource</string>
+    <string name="pref_key_theme" translatable="false">pref_key_theme</string>
+    <string name="recover">Sembuh</string>
+    <string name="confirm">Terinfeksi</string>
+    <string name="recovered">Sembuh</string>
+    <string name="death">Korban</string>
+    <string name="fetch">Fetch…</string>
+    <string name="infected">Terinfeksi</string>
+    <string name="pull_me_up">Tarik ke atas</string>
+    <string name="country">Negara</string>
+    <string name="enable_push_notif">Aktifkan notifikasi</string>
+    <string name="what_is">Apa itu COVID-19?</string>
+    <string name="covid_prevent">COVID-19 Pencegahan</string>
+    <string name="click_to_show">Daftar sumber data</string>
+    <string name="data_source">Sumber data</string>
+    <string name="data_provided">Data diperoleh dari </string>
+    <string name="other">Lain-lain</string>
+    <string name="select_data_source">Pilih sumber data</string>
+    <string name="change_language">Change Language</string>
+    <string name="change_theme">Change Theme</string>
+    <string name="info_recovered">Sembuh: </string>
+    <string name="info_death">Meninggal: </string>
+    <string name="info_active">Aktif: </string>
+    <string name="info_confirm">Terinfeksi: </string>
+
+    <string name="job_success">Job Success</string>
+    <string name="ui_ux_designer">UI/UX Designer</string>
+    <string name="my_desc">I’m an Android Developer, passionate about building great apps. For me app development is not just about coding, it’s also about creating an awesome user experience. So far, I have worked on almost 11+ apps. Most of these apps were developed while I was working at a day job. In my portfolio, I am only showcasing apps that I have personally designed and developed.</string>
+    <string name="about_me">About Me</string>
+    <string name="contact">Contact</string>
+    <string name="skills">Skills</string>
+    <string name="ratings">Star Ratings</string>
+    <string name="news_des">This app uses NewsAPI to get various sources and each source can provide major headlines. It uses Retrofit 2 to fetch news sources and news headlines from the API and displays in a RecyclerView. </string>
+    <string name="goplay_des">This app is gives you feature to streaming of video like youtube.</string>
+    <string name="foodgo_des">This app gives you variety of food to order, track, enjoy :) </string>
+    <string name="developer_name">Abhishek Pathak</string>
+    <!-- Preference Titles -->
+    <string-array name="pref_auto_lock_labels">
+<!--        <item>Channel New Asia</item>-->
+        <item>Johns Hopkins CSSE</item>
+        <item>ArcGIS-NCOV</item>
+        <item>Worldometers</item>
+    </string-array>
+
+    <string-array name="pref_auto_lock_values">
+<!--        <item>0</item>-->
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+
+    <string-array name="pref_auto_lock_labels_theme">
+        <item>Day</item>
+        <item>Night</item>
+    </string-array>
+
+    <string-array name="pref_auto_lock_values_theme">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <!-- Messages Preferences -->
+</resources>

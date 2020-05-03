@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name_prod">COVIDO Meter</string>
+    <string name="app_name_staging">COVIDO Meter</string>
+    <string name="corona_virus_definition">What is COVID-19</string>
+    <string name="about">About</string>
+    <string name="coronavirus_definition">https://en.wikipedia.org/wiki/Coronavirus</string>
+    <string name="coronavirus_prevention">https://www.voanews.com/science-health/coronavirus-outbreak/health-coronavirus-prevention-tips</string>
+    <string name="coronavirusapplogo">coronaVirusAppLogo</string>
+    <string name="corona_live_tracking">COVIDO Meter</string>
+    <string name="last_update">Last Update: </string>
+    <string name="title_activity_preference">Preference</string>
+
+    <!-- Preference Titles -->
+    <string name="sync_header">Notification</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Allow push notification when there\'s new data available</string>
+    <string name="pref_key_check">pref_key_check</string>
+    <string name="about_message">Hello, got any ideas?, don\'t hesitate to contact me \\n\\ndhikyaldwiansyah@gmail.com\\n\\nData scraped from:\\n- infographics.channelnewsasia.com\\n- JHU CSSE</string>
+    <string name="refresh_timeout">You are refreshing too fast, please wait for a while before refreshing again</string>
+    <string name="network_problem">There\'s a problem with your network</string>
+    <string name="pref_key_datasource" translatable="false">pref_key_datasource</string>
+    <string name="pref_key_theme" translatable="false">pref_key_theme</string>
+    <string name="recover">Recover</string>
+    <string name="confirm">Confirm</string>
+    <string name="recovered">Recovered</string>
+    <string name="death">Death</string>
+    <string name="fetch">Fetch…</string>
+    <string name="infected">Infected</string>
+    <string name="pull_me_up">Pull me up</string>
+    <string name="country">Country</string>
+    <string name="enable_push_notif">Enable Push Notification</string>
+    <string name="what_is">What is COVID-19?</string>
+    <string name="covid_prevent">COVID-19 Prevention</string>
+    <string name="click_to_show">Click to show a list of data source to choose from</string>
+    <string name="data_source">Data Source</string>
+    <string name="data_provided">Data provided by </string>
+    <string name="other">Others</string>
+    <string name="select_data_source">Select data source</string>
+    <string name="change_language">Change Language</string>
+    <string name="change_theme">Change Theme</string>
+    <string name="info_recovered">Recovered: </string>
+    <string name="info_death">Death: </string>
+    <string name="info_active">Active: </string>
+    <string name="info_confirm">Confirm: </string>
+    <string name="developer_name">Abhishek Pathak</string>
+    <string name="job_success">Job Success</string>
+    <string name="ui_ux_designer">UI/UX Designer</string>
+    <string name="my_desc">I’m an Android Developer, passionate about building great apps. For me app development is not just about coding, it’s also about creating an awesome user experience. So far, I have worked on almost 11+ apps. Most of these apps were developed while I was working at a day job. In my portfolio, I am only showcasing apps that I have personally designed and developed.</string>
+    <string name="about_me">About Me</string>
+    <string name="contact">Contact</string>
+    <string name="skills">Skills</string>
+    <string name="ratings">Star Ratings</string>
+    <string name="news_des">This app uses NewsAPI to get various sources and each source can provide major headlines. It uses Retrofit 2 to fetch news sources and news headlines from the API and displays in a RecyclerView. </string>
+    <string name="goplay_des">This app is gives you feature to streaming of video like youtube.</string>
+    <string name="foodgo_des">This app gives you variety of food to order, track, enjoy :) </string>
+
+    <!-- Preference Titles -->
+
+    <!-- Messages Preferences -->
+
+    <string-array name="pref_auto_lock_labels">
+        <!--        <item>Channel New Asia</item>-->
+        <item>Johns Hopkins CSSE</item>
+        <item>ArcGIS-NCOV</item>
+        <item>Worldometers</item>
+    </string-array>
+
+    <string-array name="pref_auto_lock_values">
+        <!--        <item>0</item>-->
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+
+    <string-array name="pref_auto_lock_labels_theme">
+        <item>Day</item>
+        <item>Night</item>
+    </string-array>
+
+    <string-array name="pref_auto_lock_values_theme">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+</resources>
