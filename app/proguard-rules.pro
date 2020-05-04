@@ -22,6 +22,6 @@
 
 -keep public class * extends androidx.preference.** { *;}
 -dontwarn org.xmlpull.v1.XmlPullParser
--dontwarn org.xm lpull.v1.XmlSerializer
+-dontwarn org.xmlpull.v1.XmlSerializer
 -keep class org.xmlpull.v1.* {*;}
 -ignorewarnings
